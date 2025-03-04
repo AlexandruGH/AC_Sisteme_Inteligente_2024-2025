@@ -11,3 +11,6 @@
 - [Expected Value of a Lottery Ticket](https://youtu.be/nKBun2JmqlE?si=jna8pl3KZMzEf-hR)
 
 
+### Laboratory - 2 - Bayesian Networks
+- [Monty Hall Problem Explained](https://youtu.be/7u6kFlWZOWg?si=QUgk53OBfdUDN5kf)
+- [Bayesian Network Code for Monty Hall](https://pgmpy.org/examples/Monty%20Hall%20Problem.html)
