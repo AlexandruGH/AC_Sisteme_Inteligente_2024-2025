@@ -14,3 +14,12 @@
 ### Laboratory - 2 - Bayesian Networks
 - [Monty Hall Problem Explained](https://youtu.be/7u6kFlWZOWg?si=QUgk53OBfdUDN5kf)
 - [Bayesian Network Code for Monty Hall](https://pgmpy.org/examples/Monty%20Hall%20Problem.html)
+
+
+### Laboratory - 3 - Bayesian Networks and Naive Bayes
+
+- [Naive Bayes from scratch Weather example explained](https://medium.com/@rangavamsi5/na%C3%AFve-bayes-algorithm-implementation-from-scratch-in-python-7b2cc39268b9)
+- [Mean, Variance and Standard Deviation](https://www.geeksforgeeks.org/mathematics-mean-variance-and-standard-deviation/)
+- [Normal Distribution in Machine Learning](https://medium.com/analytics-vidhya/normal-distribution-and-machine-learning-ec9d3ca05070)
+- [Gaussian Naive Bayes explained from Scratch](https://www.kaggle.com/code/mohamedmagdy11/gaussian-naive-bayes-from-scratch)
+- [Gaussian Naive Bayes Overview](https://medium.com/@kashishdafe0410/gaussian-naive-bayes-understanding-the-basics-and-applications-52098087b963)
