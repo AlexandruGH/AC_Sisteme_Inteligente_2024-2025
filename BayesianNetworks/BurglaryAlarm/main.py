@@ -66,7 +66,7 @@ if __name__ == "__main__":
 
     alarm_infer = VariableElimination(alarm_model)
 
-    print(alarm_infer.query(variables=['JohnCall', 'MaryCall', 'Alarm', 'Burglary', 'Earthquake'], evidence={'Burglary': 1}, show_progress=True)) # E explains away the Alarm
+    print(alarm_infer.query(variables=['JohnCall', 'MaryCall', 'Alarm', 'Earthquake'], evidence={'Burglary': 1}, show_progress=True)) # E explains away the Alarm
 
     print(alarm_model.local_independencies('JohnCall'))
 
