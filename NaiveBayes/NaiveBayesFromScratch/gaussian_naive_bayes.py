@@ -129,7 +129,7 @@ class GaussianNB:
                 for feat, feat_val in zip(self.features, query):
                     mean = self.likelihoods[feat][outcome]['mean']
                     std = self.likelihoods[feat][outcome]['std']
-                    likelihood *= (1 / math.sqrt(2 * math.pi * std)) * np.exp(-(feat_val - mean) ** 2 / (2 * std**2))
+                    likelihood *= (1 / math.sqrt(2 * math.pi * std**2)) * np.exp(-(feat_val - mean) ** 2 / (2 * std**2))
 
                 posterior_numerator = (likelihood * prior)
                 probs_outcome[outcome] = posterior_numerator
@@ -151,7 +151,7 @@ if __name__ == "__main__":
     X, y = pre_processing(df)
 
     # Split data into Training and Testing Sets
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.9, random_state=0)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.8, random_state=0)
 
     # print(X_train, y_train)
     gnb_clf = GaussianNB()
@@ -164,6 +164,10 @@ if __name__ == "__main__":
     # Query 1:
     query = np.array([[5.7, 2.9, 4.2, 1.3]])
     print("Query 1:- {} ---> {}".format(query, gnb_clf.predict(query)))
+
+    #Query 2:
+    query = np.array([[4.6, 3.1, 1.5, 0.2]])
+    print("Query 2:- {} ---> {}".format(query, gnb_clf.predict(query)))
 
     #############################################################################################################
 
