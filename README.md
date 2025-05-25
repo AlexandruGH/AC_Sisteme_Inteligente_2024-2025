@@ -23,3 +23,26 @@
 - [Normal Distribution in Machine Learning](https://medium.com/analytics-vidhya/normal-distribution-and-machine-learning-ec9d3ca05070)
 - [Gaussian Naive Bayes explained from Scratch](https://www.kaggle.com/code/mohamedmagdy11/gaussian-naive-bayes-from-scratch)
 - [Gaussian Naive Bayes Overview](https://medium.com/@kashishdafe0410/gaussian-naive-bayes-understanding-the-basics-and-applications-52098087b963)
+
+### Deep Dive into how LLMs (ChatGPT) works - Thank you Mihai Stan
+- [LLM, Tokenizers, ChatGPT](https://www.youtube.com/watch?v=7xTGNNLPyMI&t=10305s)
+- [Temperature for LLM](https://www.linkedin.com/pulse/what-temperature-large-language-model-damien-benveniste-0kd2c/)
+
+## Neural Networks
+- [Batch vs Mini Batch vs Stocastic GD](https://medium.com/@amannagrawall002/batch-vs-stochastic-vs-mini-batch-gradient-descent-techniques-7dfe6f963a6f)
+- [Convolutional Neural Networks (CNN)](https://towardsdatascience.com/conv2d-to-finally-understand-what-happens-in-the-forward-pass-1bbaafb0b148)
+- [Reduce LR on Platou](https://pytorch.org/docs/stable/generated/torch.optim.lr_scheduler.ReduceLROnPlateau.html)
+- [Dataset Mihai Eminescu](https://github.com/fioan89/DSAlgorithms/blob/master/unittests/Luceafarul.txt)
+- [Dataset Shakespeare](https://ocw.mit.edu/ans7870/6/6.006/s08/lecturenotes/files/t8.shakespeare.txt)
+
+## How to train a Neural Network - by Andrej Karpathy
+- [Part I](https://medium.com/missinglink-deep-learning-platform/most-common-neural-net-pytorch-mistakes-456560ada037)
+- [Part II](https://medium.com/missinglink-deep-learning-platform/most-common-neural-net-pytorch-mistakes-456560ada037)
+
+## Clustering - Unsupervised Learning
+- [K Means Clustering](https://www.datacamp.com/tutorial/k-means-clustering-python)
+- [K-Means](https://towardsdatascience.com/create-your-own-k-means-clustering-algorithm-in-python-d7d4c9077670)
+- [DBScan - Density Based Clustering](https://scrunts23.medium.com/dbscan-algorithm-from-scratch-in-python-475b82e0571c)
+- [Hierarchical Clustering](https://antoblog.medium.com/hierarchical-clustering-and-density-based-spatial-clustering-of-applications-with-noise-dbscan-b8d903095532)
+- [Hierachical DBSCAN](https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html)
+- [K-Means for Classifing product categories](https://www.kaggle.com/code/summerhch/k-means-clustering-product-into-categories/notebook)
